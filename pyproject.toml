@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "automatica-tt"
+version = "0.1.0"
+description = ""
+authors = ["Sergei Demchenko <hb13718@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "4.2"
+djangorestframework = "^3.15.2"
+psycopg2-binary = "^2.9.9"
+python-dotenv = "^1.0.1"
+gunicorn = "^22.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
