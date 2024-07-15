@@ -58,3 +58,5 @@ To run tests, use the command:
 ```bash
 make test
 ```
+
+For more commands, see the `Makefile`.

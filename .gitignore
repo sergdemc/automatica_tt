@@ -1,0 +1,8 @@
+.venv
+/.python-version
+.idea
+__pycache__
+/.env
+/.env.test
+/certs/
+.DS_Store
