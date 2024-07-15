@@ -1,0 +1,105 @@
+[
+{
+  "model": "api.employee",
+  "pk": 1,
+  "fields": {
+    "name": "IvanIvanych",
+    "phone_number": "89998887766"
+  }
+},
+{
+  "model": "api.employee",
+  "pk": 3,
+  "fields": {
+    "name": "PetrPetrovich",
+    "phone_number": "89995001020"
+  }
+},
+{
+  "model": "api.employee",
+  "pk": 4,
+  "fields": {
+    "name": "Yuri",
+    "phone_number": "89997770505"
+  }
+},
+{
+  "model": "api.store",
+  "pk": 1,
+  "fields": {
+    "name": "TSUM",
+    "employee": 1
+  }
+},
+{
+  "model": "api.store",
+  "pk": 2,
+  "fields": {
+    "name": "GUM",
+    "employee": 1
+  }
+},
+{
+  "model": "api.store",
+  "pk": 3,
+  "fields": {
+    "name": "SELPO",
+    "employee": 3
+  }
+},
+{
+  "model": "api.visit",
+  "pk": 1,
+  "fields": {
+    "date_time": "2024-07-15T13:43:27.309Z",
+    "store": 1,
+    "employee": 1,
+    "latitude": 43.43,
+    "longitude": 41.01
+  }
+},
+{
+  "model": "api.visit",
+  "pk": 2,
+  "fields": {
+    "date_time": "2024-07-15T13:54:31.727Z",
+    "store": 2,
+    "employee": 1,
+    "latitude": 44.44,
+    "longitude": 42.01
+  }
+},
+{
+  "model": "api.visit",
+  "pk": 3,
+  "fields": {
+    "date_time": "2024-07-15T13:55:21.633Z",
+    "store": 3,
+    "employee": 3,
+    "latitude": 54.44,
+    "longitude": 52.01
+  }
+},
+{
+  "model": "api.visit",
+  "pk": 4,
+  "fields": {
+    "date_time": "2024-07-15T13:55:56.425Z",
+    "store": 3,
+    "employee": 3,
+    "latitude": 54.44,
+    "longitude": 52.01
+  }
+},
+{
+  "model": "api.visit",
+  "pk": 5,
+  "fields": {
+    "date_time": "2024-07-15T14:00:09.054Z",
+    "store": 1,
+    "employee": 1,
+    "latitude": 54.44,
+    "longitude": 52.01
+  }
+}
+]
